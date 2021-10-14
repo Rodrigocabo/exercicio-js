@@ -1,10 +1,18 @@
- const cliente1nome ="Carlos";
- const cliente1cpf = 11122233301;
- const cliente1agencia = 1001;
- const cliente1saldo = 0;
+class cliente{
+    nome;
+    cpf;
+    agencia;
+    saldo;
+}
+const cliente1 = new cliente();
+const cliente2 = new cliente();
+        cliente1.nome ="Carlos";
+        cliente1.cpf = 11122233301;
+        cliente1.agencia = 1001;
+        cliente1.saldo = 0;
 
- const cliente2nome = "keila";
- const cliente2cpf = 1112222233301;
- const cliente2agencia = 1001;
- const cliente2saldo = 0;
- console.log(cliente1nome);
+        cliente2.nome = "keila";
+        cliente2.cpf = 1112222233301;
+        cliente2.agencia = 1001;
+        cliente2.saldo = 0;
+ console.log(cliente1);
