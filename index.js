@@ -8,7 +8,16 @@ class contacorrente{
     agencia;
     saldo;
 
-}
+    sacar(valor){
+        if(this.saldo >= valor){
+            this.saldo -= valor;
+        }
+        }
+
+    }
+
+
+
 
 const cliente1 = new cliente();
 const cliente2 = new cliente();
