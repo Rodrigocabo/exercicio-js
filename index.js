@@ -13,8 +13,16 @@ class contacorrente{
             this.saldo -= valor;
         }
         }
-
+    depositar(valor){
+        if(valor > 0){
+            this.saldo += valor;
+        }
     }
+    }
+
+
+
+
 
 
 
