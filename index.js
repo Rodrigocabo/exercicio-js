@@ -57,3 +57,11 @@ contacorrentecarlos.agencia = 1001;
          /// comentario
       console.log("ola mundo!");
       comsole.log("esse trecho sera exibido");
+
+      // Não podemos criar variaveis com palavras reservadas
+      // variaveis  precisam ter nomes significativoss
+      //não pode começar o nome d  variavel com um nnumero
+      let nomecliente = "rodrigo";
+      nomecliente ='rodrigo';
+
+      console.log("nomecliente");
