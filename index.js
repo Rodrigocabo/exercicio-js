@@ -61,7 +61,20 @@ contacorrentecarlos.agencia = 1001;
       // Não podemos criar variaveis com palavras reservadas
       // variaveis  precisam ter nomes significativoss
       //não pode começar o nome d  variavel com um nnumero
+     // não utilize var utilize let
       let nomecliente = "rodrigo";
       nomecliente ='rodrigo';
 
       console.log("nomecliente");
+      
+      const contacorrentecarlos = new contacorrente();
+      contacorrentecarlos.saldo =0;
+      contacorrentecarlos.agencia = 1001;
+       console.log(contacorrentecarlos.saldo);
+       contacorrentecarlos.saldo = 100;
+       console.log(contacorrentecarlos.saldo);  
+       let valorsacado= 200;
+       if(contacorrentecarlos.saldo >= valorsacado){
+          contacorrentecarlos -= valorsacado;
+       contacorrentecarlos.saldo -= valorsacado;                                                                    
+       }
