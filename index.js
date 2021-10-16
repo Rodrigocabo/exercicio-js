@@ -53,3 +53,7 @@ contacorrentecarlos.agencia = 1001;
 
          console.log(cliente1);
         console.log(cliente2);
+
+         /// comentario
+      console.log("ola mundo!");
+      comsole.log("esse trecho sera exibido");
