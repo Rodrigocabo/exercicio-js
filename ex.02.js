@@ -7,3 +7,11 @@ l// Não podemos criar CONSTANTES com palavras reservadas
 // Não podemos modificar o valor de uma CONSTANTES
 const nome = 'joão';
 console.log('nome');
+nome = 'rodrigo';
+// + - * /
+const primeironumero = 5;
+const segundonumero = 10;
+const conta = primeironumero * segundonumero;
+const resultadoduplicado = resultado * 2;
+const resultadotriplicado = resultado * 3;
+console.log(resultadotriplicado);

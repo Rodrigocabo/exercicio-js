@@ -4,7 +4,7 @@ l// Não podemos criar variaveis com palavras reservadas
 // Não pode conter espaços ou traços
 // utilizamos camelcase
 // case-sentitive
-// Não podemos redeclarar variaves com let
+// Não podemos redeclarar
 let nomecliente = 'joão';
 let nomecliente = 'otavio';
 console.log(nomecliente,nomecliente);
