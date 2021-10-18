@@ -5,6 +5,7 @@ l// Não podemos criar CONSTANTES com palavras reservadas
 // utilizamos camelcase
 // case-sentitive
 // Não podemos modificar o valor de uma CONSTANTES
+// string = text  / number = Numero
 const nome = 'joão';
 console.log('nome');
 nome = 'rodrigo';
@@ -15,3 +16,6 @@ const conta = primeironumero * segundonumero;
 const resultadoduplicado = resultado * 2;
 const resultadotriplicado = resultado * 3;
 console.log(resultadotriplicado);
+
+
+
